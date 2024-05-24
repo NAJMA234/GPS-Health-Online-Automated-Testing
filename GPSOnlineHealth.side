@@ -1,0 +1,2225 @@
+{
+  "id": "a018865a-b407-468c-9176-9d4f8e479f7f",
+  "version": "2.0",
+  "name": "GPS Online Health",
+  "url": "https://www.gpshealthonline.lk/",
+  "tests": [{
+    "id": "2d770534-e351-4fc8-8206-ec9a44970ad1",
+    "name": "Patient Login Page",
+    "commands": [{
+      "id": "9d54704a-12dc-413b-a235-cc436adeebec",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cfbba548-2d03-4a39-8adb-61a25527366a",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//a[contains(text(),'Patient')]",
+      "targets": [
+        ["linkText=Patient", "linkText"],
+        ["css=.pink-link:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Patient')]", "xpath:link"],
+        ["xpath=//section[@id='header']/div/nav/div[3]/div/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.gpshealthonline.lk/login')]", "xpath:href"],
+        ["xpath=//div[3]/div/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Patient')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ac523ba4-f4fc-4ec3-90b7-e153c98fdd36",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//input[@id='username']",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//form[@id='customer_loginform']/div/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dcaebfbc-7b7b-4aa8-8ecc-678ceb31992f",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//input[@id='username']",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//form[@id='customer_loginform']/div/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/div/input", "xpath:position"]
+      ],
+      "value": "najmamuzammil734@gmail.com"
+    }, {
+      "id": "65308979-ec15-45bb-bb9a-ac4d1f635a53",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//input[@id='password']",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='customer_loginform']/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//form/div/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2885e8d4-9bfa-4fc5-b44b-648d98d095aa",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//input[@id='password']",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='customer_loginform']/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//form/div/div[2]/input", "xpath:position"]
+      ],
+      "value": "ob1982"
+    }, {
+      "id": "cf4e96c9-b800-4912-b68e-eb6a696811e9",
+      "comment": "",
+      "command": "click",
+      "target": "id=myBtn",
+      "targets": [
+        ["id=myBtn", "id"],
+        ["css=#myBtn", "css:finder"],
+        ["xpath=//button[@id='myBtn']", "xpath:attributes"],
+        ["xpath=//form[@id='customer_loginform']/div/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "59d32586-0723-4f73-b137-f9ba556e6dd1",
+    "name": "Search For Doctors",
+    "commands": [{
+      "id": "dd40096b-9fca-4a96-8999-d7ca514da234",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b9c4a38b-2566-4d79-b0f6-1abf6ccfba64",
+      "comment": "",
+      "command": "click",
+      "target": "id=doctor_name_search",
+      "targets": [
+        ["id=doctor_name_search", "id"],
+        ["name=doctor_name_search", "name"],
+        ["css=#doctor_name_search", "css:finder"],
+        ["xpath=//input[@id='doctor_name_search']", "xpath:attributes"],
+        ["xpath=//form[@id='doctorsearchform']/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f96c6ec3-2ce2-4625-95a0-4e471b89f29e",
+      "comment": "",
+      "command": "click",
+      "target": "id=doctor_name_search",
+      "targets": [
+        ["id=doctor_name_search", "id"],
+        ["name=doctor_name_search", "name"],
+        ["css=#doctor_name_search", "css:finder"],
+        ["xpath=//input[@id='doctor_name_search']", "xpath:attributes"],
+        ["xpath=//form[@id='doctorsearchform']/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "70d58382-f08a-4309-aea6-946d571e856f",
+      "comment": "",
+      "command": "type",
+      "target": "id=doctor_name_search",
+      "targets": [
+        ["id=doctor_name_search", "id"],
+        ["name=doctor_name_search", "name"],
+        ["css=#doctor_name_search", "css:finder"],
+        ["xpath=//input[@id='doctor_name_search']", "xpath:attributes"],
+        ["xpath=//form[@id='doctorsearchform']/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "General Practitioner"
+    }, {
+      "id": "80e3c1b7-d7ef-4327-8cc6-0a5494875311",
+      "comment": "",
+      "command": "click",
+      "target": "css=.card-body",
+      "targets": [
+        ["css=.card-body", "css:finder"],
+        ["xpath=//div/div/div/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "008bdecc-656f-404b-a3ca-b67656e0032c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=FIND DOCTORS",
+      "targets": [
+        ["linkText=FIND DOCTORS", "linkText"],
+        ["css=.form-group > .btn", "css:finder"],
+        ["xpath=//a[contains(text(),'FIND DOCTORS')]", "xpath:link"],
+        ["xpath=//a[@onclick='finddoctors()']", "xpath:attributes"],
+        ["xpath=//form[@id='doctorsearchform']/div/div[3]/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:void(0)')])[11]", "xpath:href"],
+        ["xpath=//div[3]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'FIND DOCTORS')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "e7c542e7-4495-4399-a905-b24f7f7bd4df",
+    "name": "Details For Booking an Appointment",
+    "commands": [{
+      "id": "1416b2ef-c797-4651-a586-109dd8a1d504",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6f99e75d-547c-4d6f-a674-07bb8209cece",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nav-item:nth-child(2) > .nav-link",
+      "targets": [
+        ["css=.nav-item:nth-child(2) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Book Home Visit')]", "xpath:link"],
+        ["xpath=//section[@id='header']/div/nav/div[2]/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.gpshealthonline.lk/book_homeservice')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e17b1287-3a32-48a6-9af2-a36295be33c3",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Book A Home Visit",
+      "targets": [
+        ["linkText=Book A Home Visit", "linkText"],
+        ["css=.pink-btn", "css:finder"],
+        ["xpath=//a[contains(text(),'Book A Home Visit')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://www.gpshealthonline.lk/book_homeservice_doctors')]", "xpath:href"],
+        ["xpath=//div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,' Book A Home Visit')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "54094a5c-cc92-43d2-81a1-f069b626ab4c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=14:57",
+      "targets": [
+        ["linkText=14:57", "linkText"],
+        ["css=.booked-slot", "css:finder"],
+        ["xpath=//a[contains(text(),'14:57')]", "xpath:link"],
+        ["xpath=//div[@id='divproductlists']/div/div/div[2]/div/div/div[2]/div[3]/table/tbody/tr/td[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:void(0);')])[13]", "xpath:href"],
+        ["xpath=//td[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'14:57')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e61ce6f1-4eaf-449d-a08e-217ced6179f7",
+      "comment": "",
+      "command": "click",
+      "target": "id=patient_firstname",
+      "targets": [
+        ["id=patient_firstname", "id"],
+        ["name=patient_firstname", "name"],
+        ["css=#patient_firstname", "css:finder"],
+        ["xpath=//input[@id='patient_firstname']", "xpath:attributes"],
+        ["xpath=//div[@id='cust-forms']/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2b294c48-bac0-4a10-a414-118c35e158ac",
+      "comment": "",
+      "command": "click",
+      "target": "id=patient_firstname",
+      "targets": [
+        ["id=patient_firstname", "id"],
+        ["name=patient_firstname", "name"],
+        ["css=#patient_firstname", "css:finder"],
+        ["xpath=//input[@id='patient_firstname']", "xpath:attributes"],
+        ["xpath=//div[@id='cust-forms']/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d235c245-dab6-41b4-a573-5ae958d2277e",
+      "comment": "",
+      "command": "click",
+      "target": "id=reason",
+      "targets": [
+        ["id=reason", "id"],
+        ["name=reason", "name"],
+        ["css=#reason", "css:finder"],
+        ["xpath=//input[@id='reason']", "xpath:attributes"],
+        ["xpath=//form[@id='patientsdetails']/div[6]/input", "xpath:idRelative"],
+        ["xpath=//div[6]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1e1c8e4c-77ba-4ac3-9533-931b74be9291",
+      "comment": "",
+      "command": "type",
+      "target": "id=reason",
+      "targets": [
+        ["id=reason", "id"],
+        ["name=reason", "name"],
+        ["css=#reason", "css:finder"],
+        ["xpath=//input[@id='reason']", "xpath:attributes"],
+        ["xpath=//form[@id='patientsdetails']/div[6]/input", "xpath:idRelative"],
+        ["xpath=//div[6]/input", "xpath:position"]
+      ],
+      "value": "Test my BP"
+    }, {
+      "id": "945112ac-0444-4460-8245-d7793b4c032d",
+      "comment": "",
+      "command": "click",
+      "target": "id=app_address",
+      "targets": [
+        ["id=app_address", "id"],
+        ["name=app_address", "name"],
+        ["css=#app_address", "css:finder"],
+        ["xpath=//textarea[@id='app_address']", "xpath:attributes"],
+        ["xpath=//form[@id='patientsdetails']/div[7]/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2d3ccc0b-bc86-4413-b96c-bc3172fc7223",
+      "comment": "",
+      "command": "type",
+      "target": "id=app_address",
+      "targets": [
+        ["id=app_address", "id"],
+        ["name=app_address", "name"],
+        ["css=#app_address", "css:finder"],
+        ["xpath=//textarea[@id='app_address']", "xpath:attributes"],
+        ["xpath=//form[@id='patientsdetails']/div[7]/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "41 ,JAYASEWANA MAWATHA , KALOBOWILA DEHIWALA."
+    }, {
+      "id": "7e217289-c84d-47ee-9189-cab4e16c303c",
+      "comment": "",
+      "command": "click",
+      "target": "id=take_any_medi",
+      "targets": [
+        ["id=take_any_medi", "id"],
+        ["name=take_any_medi", "name"],
+        ["css=#take_any_medi", "css:finder"],
+        ["xpath=//input[@id='take_any_medi']", "xpath:attributes"],
+        ["xpath=//form[@id='patientsdetails']/strong/strong/div/input", "xpath:idRelative"],
+        ["xpath=//strong/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e65c3e5c-820c-40c1-99ab-f7dd44fca706",
+      "comment": "",
+      "command": "type",
+      "target": "id=take_any_medi",
+      "targets": [
+        ["id=take_any_medi", "id"],
+        ["name=take_any_medi", "name"],
+        ["css=#take_any_medi", "css:finder"],
+        ["xpath=//input[@id='take_any_medi']", "xpath:attributes"],
+        ["xpath=//form[@id='patientsdetails']/strong/strong/div/input", "xpath:idRelative"],
+        ["xpath=//strong/div/input", "xpath:position"]
+      ],
+      "value": "No"
+    }, {
+      "id": "605109f8-5df4-4ab5-9bbe-0c7c178b5708",
+      "comment": "",
+      "command": "click",
+      "target": "id=any_allergies",
+      "targets": [
+        ["id=any_allergies", "id"],
+        ["name=any_allergies", "name"],
+        ["css=#any_allergies", "css:finder"],
+        ["xpath=//input[@id='any_allergies']", "xpath:attributes"],
+        ["xpath=//form[@id='patientsdetails']/strong/strong/div[2]/input", "xpath:idRelative"],
+        ["xpath=//strong/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "736e464a-acf4-4a5e-9a3a-fd81b2cb6e83",
+      "comment": "",
+      "command": "type",
+      "target": "id=any_allergies",
+      "targets": [
+        ["id=any_allergies", "id"],
+        ["name=any_allergies", "name"],
+        ["css=#any_allergies", "css:finder"],
+        ["xpath=//input[@id='any_allergies']", "xpath:attributes"],
+        ["xpath=//form[@id='patientsdetails']/strong/strong/div[2]/input", "xpath:idRelative"],
+        ["xpath=//strong/div[2]/input", "xpath:position"]
+      ],
+      "value": "No"
+    }, {
+      "id": "ee696eff-fd9e-4293-b22a-9e15b96276b7",
+      "comment": "",
+      "command": "click",
+      "target": "id=family_history",
+      "targets": [
+        ["id=family_history", "id"],
+        ["name=family_history", "name"],
+        ["css=#family_history", "css:finder"],
+        ["xpath=//input[@id='family_history']", "xpath:attributes"],
+        ["xpath=//form[@id='patientsdetails']/strong/strong/div[3]/input", "xpath:idRelative"],
+        ["xpath=//strong/div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c78d37f6-8825-4533-8c68-f8c4479a942e",
+      "comment": "",
+      "command": "type",
+      "target": "id=family_history",
+      "targets": [
+        ["id=family_history", "id"],
+        ["name=family_history", "name"],
+        ["css=#family_history", "css:finder"],
+        ["xpath=//input[@id='family_history']", "xpath:attributes"],
+        ["xpath=//form[@id='patientsdetails']/strong/strong/div[3]/input", "xpath:idRelative"],
+        ["xpath=//strong/div[3]/input", "xpath:position"]
+      ],
+      "value": "No"
+    }, {
+      "id": "4ba1127f-59ca-4892-aa13-9df76d1014dd",
+      "comment": "",
+      "command": "click",
+      "target": "id=drink_alcohol",
+      "targets": [
+        ["id=drink_alcohol", "id"],
+        ["name=drink_alcohol", "name"],
+        ["css=#drink_alcohol", "css:finder"],
+        ["xpath=//input[@id='drink_alcohol']", "xpath:attributes"],
+        ["xpath=//form[@id='patientsdetails']/strong/strong/div[5]/input", "xpath:idRelative"],
+        ["xpath=//strong/div[5]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4dc9ad52-0a83-41b1-8bcf-f76edbbd5070",
+      "comment": "",
+      "command": "type",
+      "target": "id=drink_alcohol",
+      "targets": [
+        ["id=drink_alcohol", "id"],
+        ["name=drink_alcohol", "name"],
+        ["css=#drink_alcohol", "css:finder"],
+        ["xpath=//input[@id='drink_alcohol']", "xpath:attributes"],
+        ["xpath=//form[@id='patientsdetails']/strong/strong/div[5]/input", "xpath:idRelative"],
+        ["xpath=//strong/div[5]/input", "xpath:position"]
+      ],
+      "value": "No"
+    }, {
+      "id": "792df0f4-7302-4efa-98aa-976e898fcd7a",
+      "comment": "",
+      "command": "click",
+      "target": "id=is_smoke",
+      "targets": [
+        ["id=is_smoke", "id"],
+        ["name=is_smoke", "name"],
+        ["css=#is_smoke", "css:finder"],
+        ["xpath=//input[@id='is_smoke']", "xpath:attributes"],
+        ["xpath=//form[@id='patientsdetails']/strong/strong/div[6]/input", "xpath:idRelative"],
+        ["xpath=//strong/div[6]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6d8bf703-ce1d-4935-b885-bddb0549c916",
+      "comment": "",
+      "command": "type",
+      "target": "id=is_smoke",
+      "targets": [
+        ["id=is_smoke", "id"],
+        ["name=is_smoke", "name"],
+        ["css=#is_smoke", "css:finder"],
+        ["xpath=//input[@id='is_smoke']", "xpath:attributes"],
+        ["xpath=//form[@id='patientsdetails']/strong/strong/div[6]/input", "xpath:idRelative"],
+        ["xpath=//strong/div[6]/input", "xpath:position"]
+      ],
+      "value": "No"
+    }, {
+      "id": "9f9cd1bd-c07f-465b-bc03-2868efab214e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.form-group:nth-child(7) .multiselect",
+      "targets": [
+        ["css=.form-group:nth-child(7) .multiselect", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='patientsdetails']/strong/strong/div[7]/span/div/button", "xpath:idRelative"],
+        ["xpath=//span/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'None selected')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3852d063-ae63-4007-a283-4a6dcb9150f8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.show > .multiselect-option:nth-child(5)",
+      "targets": [
+        ["css=.show > .multiselect-option:nth-child(5)", "css:finder"],
+        ["xpath=(//button[@type='button'])[7]", "xpath:attributes"],
+        ["xpath=//form[@id='patientsdetails']/strong/strong/div[7]/span/div/div/button[5]", "xpath:idRelative"],
+        ["xpath=//button[5]", "xpath:position"],
+        ["xpath=//button[contains(.,'Asthma')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d56dcb04-1a41-4ac3-9232-102934d38ccf",
+      "comment": "",
+      "command": "click",
+      "target": "css=.active:nth-child(5)",
+      "targets": [
+        ["css=.active:nth-child(5)", "css:finder"],
+        ["xpath=(//button[@type='button'])[7]", "xpath:attributes"],
+        ["xpath=//form[@id='patientsdetails']/strong/strong/div[7]/span/div/div/button[5]", "xpath:idRelative"],
+        ["xpath=//button[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "845170e0-c33b-407c-8349-d7de8b628f51",
+      "comment": "",
+      "command": "click",
+      "target": "css=.show > .multiselect-option:nth-child(5)",
+      "targets": [
+        ["css=.show > .multiselect-option:nth-child(5)", "css:finder"],
+        ["xpath=(//button[@type='button'])[7]", "xpath:attributes"],
+        ["xpath=//form[@id='patientsdetails']/strong/strong/div[7]/span/div/div/button[5]", "xpath:idRelative"],
+        ["xpath=//button[5]", "xpath:position"],
+        ["xpath=//button[contains(.,'Asthma')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "83561f57-7cd3-4a21-a386-0f5f946219c1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.patient-form",
+      "targets": [
+        ["css=.patient-form", "css:finder"],
+        ["xpath=//div[@id='nav-home']/div/div/div[2]", "xpath:idRelative"],
+        ["xpath=//section[2]/div/div/div/div/div/div/div/div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "aee58741-4ecf-40af-91fd-23dd694db562",
+      "comment": "",
+      "command": "click",
+      "target": "css=.patient-form",
+      "targets": [
+        ["css=.patient-form", "css:finder"],
+        ["xpath=//div[@id='nav-home']/div/div/div[2]", "xpath:idRelative"],
+        ["xpath=//section[2]/div/div/div/div/div/div/div/div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3ddc0404-66c8-4414-9878-00dc5d0c80ed",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=.patient-form",
+      "targets": [
+        ["css=.patient-form", "css:finder"],
+        ["xpath=//div[@id='nav-home']/div/div/div[2]", "xpath:idRelative"],
+        ["xpath=//section[2]/div/div/div/div/div/div/div/div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "14c2bd0c-78c0-41cc-94a9-4c365e429f45",
+      "comment": "",
+      "command": "click",
+      "target": "css=.contibtn",
+      "targets": [
+        ["css=.contibtn", "css:finder"],
+        ["xpath=(//button[@type='button'])[48]", "xpath:attributes"],
+        ["xpath=//form[@id='patientsdetails']/strong/strong/button[2]", "xpath:idRelative"],
+        ["xpath=//strong/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Continue')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "439d0358-b0ea-4d15-9afa-6ddee9938000",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fa-plus-circle",
+      "targets": [
+        ["css=.fa-plus-circle", "css:finder"],
+        ["xpath=//section[@id='delivery_address']/div/div/a/i", "xpath:idRelative"],
+        ["xpath=//div/a/i", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "5a693b16-17d2-482e-9772-b1832486aaf7",
+    "name": "Consultation Packages",
+    "commands": [{
+      "id": "afa1ce72-7571-429d-a2c6-d0bec3832a49",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.gpshealthonline.lk/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0251952b-cba8-4103-89d2-6cc9999afb28",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nav-item:nth-child(4) > .nav-link",
+      "targets": [
+        ["css=.nav-item:nth-child(4) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Pricing')]", "xpath:link"],
+        ["xpath=//section[@id='header']/div/nav/div[2]/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.gpshealthonline.lk/package-list')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7503f689-d119-431e-8418-8d8cdb59a450",
+      "comment": "",
+      "command": "click",
+      "target": "css=.switch-label",
+      "targets": [
+        ["css=.switch-label", "css:finder"],
+        ["xpath=//div[@id='nav-profile']/div/div/div/div[2]/label/span", "xpath:idRelative"],
+        ["xpath=//label/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9f517e76-80c8-4869-8965-8dc9c979a84e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.second_package .btn",
+      "targets": [
+        ["css=.second_package .btn", "css:finder"],
+        ["xpath=//button[@value='4']", "xpath:attributes"],
+        ["xpath=//div[@id='nav-profile']/div/div[2]/table[2]/tbody/tr[11]/td[2]/button", "xpath:idRelative"],
+        ["xpath=//table[2]/tbody/tr[11]/td[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "32ab3de2-17d6-4907-9417-36317161ada5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-lg",
+      "targets": [
+        ["css=.btn-lg", "css:finder"],
+        ["xpath=//input[@value='BUY  NOW']", "xpath:attributes"],
+        ["xpath=//section[@id='my-coupon']/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//section/div[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6ba9820e-8e47-47d6-9406-f93eeabe9b16",
+      "comment": "",
+      "command": "click",
+      "target": "id=cmdSubmit1",
+      "targets": [
+        ["id=cmdSubmit1", "id"],
+        ["name=cmdSubmit1", "name"],
+        ["css=#cmdSubmit1", "css:finder"],
+        ["xpath=//button[@id='cmdSubmit1']", "xpath:attributes"],
+        ["xpath=//div[@id='cmd123456']/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'PROCEED TO PAYMENT')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2cc9f372-52b6-4529-aed3-5ae53662950e",
+      "comment": "",
+      "command": "assertAlert",
+      "target": "Card number cannot be blank",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8fa62e21-0edc-4059-880f-5344cef55b74",
+      "comment": "",
+      "command": "chooseOkOnNextConfirmation",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "248d32b6-51fd-4e50-a6ef-fb548bcb83c8",
+      "comment": "",
+      "command": "click",
+      "target": "css=u",
+      "targets": [
+        ["css=u", "css:finder"],
+        ["xpath=//a[@id='cmdSubmit2']/u", "xpath:idRelative"],
+        ["xpath=//u", "xpath:position"],
+        ["xpath=//u[contains(.,'Cancel')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f7dfe8c4-2a6b-4696-82c6-c21f6acb7f0d",
+      "comment": "",
+      "command": "assertConfirmation",
+      "target": "The transaction will not go through if you do not provide payment details. Are you sure?",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5175c7b2-80e1-4a69-9ed9-b00dc123d7ab",
+      "comment": "",
+      "command": "webdriverChooseOkOnVisibleConfirmation",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "d5acbf1f-2165-4080-a1c9-ebb7c737ae9d",
+    "name": "Healthcare Services",
+    "commands": [{
+      "id": "30b42c5a-b277-4daf-9e8b-e175e42c0217",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.gpshealthonline.lk/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d2f69e2e-c801-4d0b-9eb7-6cd1e9db85ec",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x832",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6636eea0-d4da-4d65-af3e-e2f75427316a",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=(//a[contains(text(),'Video Consultation')])[2]",
+      "targets": [
+        ["linkText=Video Consultation", "linkText"],
+        ["css=.nav-item:nth-child(6) .dropdown-item:nth-child(1)", "css:finder"],
+        ["xpath=(//a[contains(text(),'Video Consultation')])[2]", "xpath:link"],
+        ["xpath=//section[@id='header']/div/nav/div[2]/ul/li[6]/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://www.gpshealthonline.lk/online_consultation')])[2]", "xpath:href"],
+        ["xpath=//li[6]/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "52aa1018-838a-4951-bf14-d85dad87bd90",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//a[contains(text(),'Test Bookings')]",
+      "targets": [
+        ["linkText=Test Bookings", "linkText"],
+        ["css=.nav-item:nth-child(6) .dropdown-item:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Test Bookings')]", "xpath:link"],
+        ["xpath=//section[@id='header']/div/nav/div[2]/ul/li[6]/div/a[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://www.gpshealthonline.lk/tests')])[3]", "xpath:href"],
+        ["xpath=//li[6]/div/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Test Bookings')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0eab4d92-d832-46f1-89a7-d29ab4bc9e19",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//a[contains(text(),'Doctor Clinic Visits')]",
+      "targets": [
+        ["linkText=Doctor Clinic Visits", "linkText"],
+        ["css=.dropdown-item:nth-child(3)", "css:finder"],
+        ["xpath=//a[contains(text(),'Doctor Clinic Visits')]", "xpath:link"],
+        ["xpath=//section[@id='header']/div/nav/div[2]/ul/li[6]/div/a[3]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.gpshealthonline.lk/book_appointment')]", "xpath:href"],
+        ["xpath=//a[3]", "xpath:position"],
+        ["xpath=//a[contains(.,'Doctor Clinic Visits')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "138f8298-92a5-46e3-a1b0-a8c790ba626f",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//a[contains(text(),'Doctor Home Visit')]",
+      "targets": [
+        ["linkText=Doctor Home Visit", "linkText"],
+        ["css=.dropdown-item:nth-child(4)", "css:finder"],
+        ["xpath=//a[contains(text(),'Doctor Home Visit')]", "xpath:link"],
+        ["xpath=//section[@id='header']/div/nav/div[2]/ul/li[6]/div/a[4]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://www.gpshealthonline.lk/book_homeservice')])[2]", "xpath:href"],
+        ["xpath=//a[4]", "xpath:position"],
+        ["xpath=//a[contains(.,'Doctor Home Visit')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "7cbf51b4-d2b3-4f76-b84e-2324bdede446",
+    "name": "Health Care Product Purchase",
+    "commands": [{
+      "id": "f1f54e10-b2bd-4b95-a8fb-b6bf814a8c7e",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.gpshealthonline.lk/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c5a641d9-9cb9-4b83-9be9-3953b0692b18",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x832",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4abc2e9b-a8bd-4dd8-b929-5f210a407253",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nav-item:nth-child(5) > .nav-link",
+      "targets": [
+        ["css=.nav-item:nth-child(5) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Shop Online')]", "xpath:link"],
+        ["xpath=//section[@id='header']/div/nav/div[2]/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.gpshealthonline.lk/shop')]", "xpath:href"],
+        ["xpath=//li[5]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a81b25f7-f908-4a10-8a66-f875fb354489",
+      "comment": "",
+      "command": "click",
+      "target": "css=.site-menu .fa",
+      "targets": [
+        ["css=.site-menu .fa", "css:finder"],
+        ["xpath=//nav/div/ul/li[6]/a/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "916472a5-0ee1-4abd-855a-6479d33e9f0a",
+      "comment": "",
+      "command": "click",
+      "target": "id=searchfield",
+      "targets": [
+        ["id=searchfield", "id"],
+        ["name=q", "name"],
+        ["css=#searchfield", "css:finder"],
+        ["xpath=//input[@id='searchfield']", "xpath:attributes"],
+        ["xpath=//form[@id='frmminisearch']/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "97ba362f-6ab5-4697-acd2-13069538ffb0",
+      "comment": "",
+      "command": "type",
+      "target": "id=searchfield",
+      "targets": [
+        ["id=searchfield", "id"],
+        ["name=q", "name"],
+        ["css=#searchfield", "css:finder"],
+        ["xpath=//input[@id='searchfield']", "xpath:attributes"],
+        ["xpath=//form[@id='frmminisearch']/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Beauty"
+    }, {
+      "id": "cb340911-aa1a-47ce-b582-643475ae0392",
+      "comment": "",
+      "command": "type",
+      "target": "id=searchfield",
+      "targets": [
+        ["id=searchfield", "id"],
+        ["name=q", "name"],
+        ["css=#searchfield", "css:finder"],
+        ["xpath=//input[@id='searchfield']", "xpath:attributes"],
+        ["xpath=//form[@id='frmminisearch']/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Beauty"
+    }, {
+      "id": "f2f97d6e-610d-4059-8eeb-4273e29fb726",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=searchfield",
+      "targets": [
+        ["id=searchfield", "id"],
+        ["name=q", "name"],
+        ["css=#searchfield", "css:finder"],
+        ["xpath=//input[@id='searchfield']", "xpath:attributes"],
+        ["xpath=//form[@id='frmminisearch']/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "10780270-3bc4-42a3-b287-9d76efe35e87",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Add to Cart",
+      "targets": [
+        ["linkText=Add to Cart", "linkText"],
+        ["css=.cart-btn-add", "css:finder"],
+        ["xpath=//a[contains(text(),'Add to Cart')]", "xpath:link"],
+        ["xpath=//a[@id='']", "xpath:attributes"],
+        ["xpath=//div[@id='divproductlists']/div/div/div/div[2]/div/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:void(0);')])[2]", "xpath:href"],
+        ["xpath=//div[2]/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Add to Cart')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b0c4182d-dd80-46d2-9e46-f8feb855964a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.confirm",
+      "targets": [
+        ["css=.confirm", "css:finder"],
+        ["xpath=//div[7]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'OK')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1ca71e45-021a-4166-9716-f9729dd67527",
+      "comment": "",
+      "command": "click",
+      "target": "css=.site-menu .badge",
+      "targets": [
+        ["css=.site-menu .badge", "css:finder"],
+        ["xpath=//nav/div/ul/li[7]/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e36089e4-64c8-439a-9b12-9d15d7bfa4e2",
+      "comment": "",
+      "command": "click",
+      "target": "id=checkimagevalidation1",
+      "targets": [
+        ["id=checkimagevalidation1", "id"],
+        ["linkText=CHECKOUT", "linkText"],
+        ["css=#checkimagevalidation1", "css:finder"],
+        ["xpath=//a[contains(text(),'CHECKOUT')]", "xpath:link"],
+        ["xpath=//a[@id='checkimagevalidation1']", "xpath:attributes"],
+        ["xpath=//section[@id='my-coupon']/div[4]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.gpshealthonline.lk/shop/checkout')]", "xpath:href"],
+        ["xpath=//div[4]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'CHECKOUT')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "39237059-c868-4cd2-a413-5b4732789320",
+    "name": "Feedback Form",
+    "commands": [{
+      "id": "de4b2c9c-b89e-464c-bb94-4bd7fd9bfc56",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.gpshealthonline.lk/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "181fe337-6377-4888-8852-cae262b3c2f7",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x832",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1d51bcff-797b-4e25-8c79-c11cd7f6c51e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nav-item:nth-child(7) > .nav-link",
+      "targets": [
+        ["css=.nav-item:nth-child(7) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Feedback')]", "xpath:link"],
+        ["xpath=//section[@id='header']/div/nav/div[2]/ul/li[7]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.gpshealthonline.lk/feedback')]", "xpath:href"],
+        ["xpath=//li[7]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "22987768-e7ed-41a0-9947-b4dc2889f401",
+      "comment": "",
+      "command": "click",
+      "target": "id=name",
+      "targets": [
+        ["id=name", "id"],
+        ["name=name", "name"],
+        ["css=#name", "css:finder"],
+        ["xpath=//input[@id='name']", "xpath:attributes"],
+        ["xpath=//form[@id='contactForm']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ea90b7fe-f130-406d-a8af-762dafbf0d1c",
+      "comment": "",
+      "command": "type",
+      "target": "id=name",
+      "targets": [
+        ["id=name", "id"],
+        ["name=name", "name"],
+        ["css=#name", "css:finder"],
+        ["xpath=//input[@id='name']", "xpath:attributes"],
+        ["xpath=//form[@id='contactForm']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Fathima Najuma "
+    }, {
+      "id": "083d2596-ef72-4faa-88ee-79f4c18b9dd0",
+      "comment": "",
+      "command": "click",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//form[@id='contactForm']/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "750da0fd-9ca6-4887-8401-9424a139a75e",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//form[@id='contactForm']/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "najmamuzammil734@gmail.com"
+    }, {
+      "id": "7b9e45c7-7df4-44ef-b652-a1ae934f7f24",
+      "comment": "",
+      "command": "click",
+      "target": "id=subject",
+      "targets": [
+        ["id=subject", "id"],
+        ["name=subject", "name"],
+        ["css=#subject", "css:finder"],
+        ["xpath=//input[@id='subject']", "xpath:attributes"],
+        ["xpath=//form[@id='contactForm']/div/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "770b8897-a000-4bbe-821c-3d7fcdc2c6da",
+      "comment": "",
+      "command": "click",
+      "target": "id=subject",
+      "targets": [
+        ["id=subject", "id"],
+        ["name=subject", "name"],
+        ["css=#subject", "css:finder"],
+        ["xpath=//input[@id='subject']", "xpath:attributes"],
+        ["xpath=//form[@id='contactForm']/div/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "80bad177-a013-424d-ae9b-29c01f1251d7",
+      "comment": "",
+      "command": "click",
+      "target": "id=subject",
+      "targets": [
+        ["id=subject", "id"],
+        ["name=subject", "name"],
+        ["css=#subject", "css:finder"],
+        ["xpath=//input[@id='subject']", "xpath:attributes"],
+        ["xpath=//form[@id='contactForm']/div/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "397690ba-f3f1-4b31-b6f1-db1c91a1930e",
+      "comment": "",
+      "command": "click",
+      "target": "id=subject",
+      "targets": [
+        ["id=subject", "id"],
+        ["name=subject", "name"],
+        ["css=#subject", "css:finder"],
+        ["xpath=//input[@id='subject']", "xpath:attributes"],
+        ["xpath=//form[@id='contactForm']/div/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "afc3b793-d172-47d3-b571-bdf7a56a6428",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "id=subject",
+      "targets": [
+        ["id=subject", "id"],
+        ["name=subject", "name"],
+        ["css=#subject", "css:finder"],
+        ["xpath=//input[@id='subject']", "xpath:attributes"],
+        ["xpath=//form[@id='contactForm']/div/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1fbf06d3-cf53-46b2-bdb4-d80ebe8dc3c9",
+      "comment": "",
+      "command": "type",
+      "target": "id=subject",
+      "targets": [
+        ["id=subject", "id"],
+        ["name=subject", "name"],
+        ["css=#subject", "css:finder"],
+        ["xpath=//input[@id='subject']", "xpath:attributes"],
+        ["xpath=//form[@id='contactForm']/div/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "Appointment Cancellation "
+    }, {
+      "id": "15b2ae64-7d35-4bed-8d9d-9e40cd1fa8c9",
+      "comment": "",
+      "command": "click",
+      "target": "id=subject",
+      "targets": [
+        ["id=subject", "id"],
+        ["name=subject", "name"],
+        ["css=#subject", "css:finder"],
+        ["xpath=//input[@id='subject']", "xpath:attributes"],
+        ["xpath=//form[@id='contactForm']/div/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ef42ba6c-f2fd-451a-a703-b4d0582e2ded",
+      "comment": "",
+      "command": "click",
+      "target": "id=message",
+      "targets": [
+        ["id=message", "id"],
+        ["name=message", "name"],
+        ["css=#message", "css:finder"],
+        ["xpath=//textarea[@id='message']", "xpath:attributes"],
+        ["xpath=//form[@id='contactForm']/div/div[4]/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c2fe8690-4857-44f4-a29a-e5baba47ecc6",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "id=message",
+      "targets": [
+        ["id=message", "id"],
+        ["name=message", "name"],
+        ["css=#message", "css:finder"],
+        ["xpath=//textarea[@id='message']", "xpath:attributes"],
+        ["xpath=//form[@id='contactForm']/div/div[4]/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "442.36248779296875,250.59999084472656"
+    }, {
+      "id": "c5c0ec9b-6de4-4ffd-93bc-e0a0e37e1733",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "id=message",
+      "targets": [
+        ["id=message", "id"],
+        ["name=message", "name"],
+        ["css=#message", "css:finder"],
+        ["xpath=//textarea[@id='message']", "xpath:attributes"],
+        ["xpath=//form[@id='contactForm']/div/div[4]/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "442.36248779296875,250.59999084472656"
+    }, {
+      "id": "f475d57b-2849-484e-ab80-09a181d4b9c3",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "id=message",
+      "targets": [
+        ["id=message", "id"],
+        ["name=message", "name"],
+        ["css=#message", "css:finder"],
+        ["xpath=//textarea[@id='message']", "xpath:attributes"],
+        ["xpath=//form[@id='contactForm']/div/div[4]/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "442.36248779296875,250.59999084472656"
+    }, {
+      "id": "a1c887c7-585e-4d8d-9ef6-53044bd82149",
+      "comment": "",
+      "command": "type",
+      "target": "id=message",
+      "targets": [
+        ["id=message", "id"],
+        ["name=message", "name"],
+        ["css=#message", "css:finder"],
+        ["xpath=//textarea[@id='message']", "xpath:attributes"],
+        ["xpath=//form[@id='contactForm']/div/div[4]/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "Dear Receptionist,\\n\\nI regret to inform you that I need to cancel our appointment scheduled for 2024.05.21. I apologize for any inconvenience this may cause.\\n\\nPlease let me know a convenient time to reschedule.\\n\\nThank you for your understanding.\\n\\nBest regards,\\nNajma"
+    }, {
+      "id": "f9f25222-5ceb-4288-91d5-77052c208988",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-primary",
+      "targets": [
+        ["css=.btn-primary", "css:finder"],
+        ["xpath=//input[@value='Send Message']", "xpath:attributes"],
+        ["xpath=//form[@id='contactForm']/div/div[5]/div/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "f3f0b479-af61-48e5-9471-9fb1a7f3f98a",
+    "name": "Payment Information for Appointment",
+    "commands": [{
+      "id": "b1c37dbd-c2f0-4f1b-a10a-a6e07dfd1852",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.gpshealthonline.lk/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7c5e193c-13c3-4c42-a054-2fd34685f135",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1536x816",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c06c3009-f2f8-4c2e-9960-fbbd6fe17473",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nav-item:nth-child(2) > .nav-link",
+      "targets": [
+        ["css=.nav-item:nth-child(2) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Book Home Visit')]", "xpath:link"],
+        ["xpath=//section[@id='header']/div/nav/div[2]/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.gpshealthonline.lk/book_homeservice')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a68ee740-87d9-4652-9a59-d2437e9f5dce",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Book A Home Visit",
+      "targets": [
+        ["linkText=Book A Home Visit", "linkText"],
+        ["css=.pink-btn", "css:finder"],
+        ["xpath=//a[contains(text(),'Book A Home Visit')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://www.gpshealthonline.lk/book_homeservice_doctors')]", "xpath:href"],
+        ["xpath=//div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,' Book A Home Visit')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9c23399c-550b-48d9-a65f-040f60c5d1c5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fa-chevron-right",
+      "targets": [
+        ["css=.fa-chevron-right", "css:finder"],
+        ["xpath=//div[@id='divproductlists']/div/div/div[2]/div/div/div[2]/div/div/a[2]/i", "xpath:idRelative"],
+        ["xpath=//a[2]/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "744e9712-5480-4be2-9db1-d7c003cd98d3",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=12:27",
+      "targets": [
+        ["linkText=12:27", "linkText"],
+        ["css=td:nth-child(1) > .available-slot", "css:finder"],
+        ["xpath=//a[contains(text(),'12:27')]", "xpath:link"],
+        ["xpath=//a[@onclick='fnbookslottime(\"MTM=\",\"Mw==\",\"MA==\",\"MA==\",\"1716748200\",\"1716793020\",\"1716794820\",\"NzA=\",\"MA==\");']", "xpath:attributes"],
+        ["xpath=//div[@id='divproductlists']/div/div/div[2]/div/div/div[2]/div[3]/table/tbody/tr/td/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:void(0);')])[12]", "xpath:href"],
+        ["xpath=//td/a", "xpath:position"],
+        ["xpath=//a[contains(.,'12:27')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e7496ac9-db8c-4dfa-9e3a-934fc7c17fc3",
+      "comment": "",
+      "command": "type",
+      "target": "id=reason",
+      "targets": [
+        ["id=reason", "id"],
+        ["name=reason", "name"],
+        ["css=#reason", "css:finder"],
+        ["xpath=//input[@id='reason']", "xpath:attributes"],
+        ["xpath=//form[@id='patientsdetails']/div[6]/input", "xpath:idRelative"],
+        ["xpath=//div[6]/input", "xpath:position"]
+      ],
+      "value": "Test Pressure count"
+    }, {
+      "id": "ac4d233f-8f6b-4533-8c04-4e4dab253539",
+      "comment": "",
+      "command": "click",
+      "target": "id=app_address",
+      "targets": [
+        ["id=app_address", "id"],
+        ["name=app_address", "name"],
+        ["css=#app_address", "css:finder"],
+        ["xpath=//textarea[@id='app_address']", "xpath:attributes"],
+        ["xpath=//form[@id='patientsdetails']/div[7]/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1071ff6c-90ce-4115-aeab-a9c71f25afda",
+      "comment": "",
+      "command": "type",
+      "target": "id=app_address",
+      "targets": [
+        ["id=app_address", "id"],
+        ["name=app_address", "name"],
+        ["css=#app_address", "css:finder"],
+        ["xpath=//textarea[@id='app_address']", "xpath:attributes"],
+        ["xpath=//form[@id='patientsdetails']/div[7]/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "41 ,JAYASEWANA MAWATHA , KALOBOWILA DEHIWALA."
+    }, {
+      "id": "f485131c-0c13-440f-aa75-5db2af35a98e",
+      "comment": "",
+      "command": "click",
+      "target": "id=take_any_medi",
+      "targets": [
+        ["id=take_any_medi", "id"],
+        ["name=take_any_medi", "name"],
+        ["css=#take_any_medi", "css:finder"],
+        ["xpath=//input[@id='take_any_medi']", "xpath:attributes"],
+        ["xpath=//form[@id='patientsdetails']/strong/strong/div/input", "xpath:idRelative"],
+        ["xpath=//strong/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4a922052-0207-4131-a4f7-79ab78500686",
+      "comment": "",
+      "command": "type",
+      "target": "id=take_any_medi",
+      "targets": [
+        ["id=take_any_medi", "id"],
+        ["name=take_any_medi", "name"],
+        ["css=#take_any_medi", "css:finder"],
+        ["xpath=//input[@id='take_any_medi']", "xpath:attributes"],
+        ["xpath=//form[@id='patientsdetails']/strong/strong/div/input", "xpath:idRelative"],
+        ["xpath=//strong/div/input", "xpath:position"]
+      ],
+      "value": "No"
+    }, {
+      "id": "3fe77a2d-aa70-4cef-a158-175ad8bd6deb",
+      "comment": "",
+      "command": "click",
+      "target": "id=any_allergies",
+      "targets": [
+        ["id=any_allergies", "id"],
+        ["name=any_allergies", "name"],
+        ["css=#any_allergies", "css:finder"],
+        ["xpath=//input[@id='any_allergies']", "xpath:attributes"],
+        ["xpath=//form[@id='patientsdetails']/strong/strong/div[2]/input", "xpath:idRelative"],
+        ["xpath=//strong/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c62eed8f-bd34-4fa3-9ee5-880af896ad99",
+      "comment": "",
+      "command": "type",
+      "target": "id=any_allergies",
+      "targets": [
+        ["id=any_allergies", "id"],
+        ["name=any_allergies", "name"],
+        ["css=#any_allergies", "css:finder"],
+        ["xpath=//input[@id='any_allergies']", "xpath:attributes"],
+        ["xpath=//form[@id='patientsdetails']/strong/strong/div[2]/input", "xpath:idRelative"],
+        ["xpath=//strong/div[2]/input", "xpath:position"]
+      ],
+      "value": "No"
+    }, {
+      "id": "3f63977b-b3a3-4b5e-bd9d-3c49407df8ad",
+      "comment": "",
+      "command": "click",
+      "target": "id=family_history",
+      "targets": [
+        ["id=family_history", "id"],
+        ["name=family_history", "name"],
+        ["css=#family_history", "css:finder"],
+        ["xpath=//input[@id='family_history']", "xpath:attributes"],
+        ["xpath=//form[@id='patientsdetails']/strong/strong/div[3]/input", "xpath:idRelative"],
+        ["xpath=//strong/div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "010d43ab-61b9-4f8d-85b2-3a8312c5ceed",
+      "comment": "",
+      "command": "type",
+      "target": "id=family_history",
+      "targets": [
+        ["id=family_history", "id"],
+        ["name=family_history", "name"],
+        ["css=#family_history", "css:finder"],
+        ["xpath=//input[@id='family_history']", "xpath:attributes"],
+        ["xpath=//form[@id='patientsdetails']/strong/strong/div[3]/input", "xpath:idRelative"],
+        ["xpath=//strong/div[3]/input", "xpath:position"]
+      ],
+      "value": "No"
+    }, {
+      "id": "b50b6b61-9a8f-4cf7-b661-5f6f0a2bfe94",
+      "comment": "",
+      "command": "click",
+      "target": "id=present_complaint",
+      "targets": [
+        ["id=present_complaint", "id"],
+        ["name=present_complaint", "name"],
+        ["css=#present_complaint", "css:finder"],
+        ["xpath=//input[@id='present_complaint']", "xpath:attributes"],
+        ["xpath=//form[@id='patientsdetails']/strong/strong/div[4]/input", "xpath:idRelative"],
+        ["xpath=//strong/div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3b97f6c2-7304-4227-8369-a04dca8e29ff",
+      "comment": "",
+      "command": "type",
+      "target": "id=present_complaint",
+      "targets": [
+        ["id=present_complaint", "id"],
+        ["name=present_complaint", "name"],
+        ["css=#present_complaint", "css:finder"],
+        ["xpath=//input[@id='present_complaint']", "xpath:attributes"],
+        ["xpath=//form[@id='patientsdetails']/strong/strong/div[4]/input", "xpath:idRelative"],
+        ["xpath=//strong/div[4]/input", "xpath:position"]
+      ],
+      "value": "-"
+    }, {
+      "id": "470d5b1a-45d8-4bd9-b434-7dad730a7d27",
+      "comment": "",
+      "command": "click",
+      "target": "id=drink_alcohol",
+      "targets": [
+        ["id=drink_alcohol", "id"],
+        ["name=drink_alcohol", "name"],
+        ["css=#drink_alcohol", "css:finder"],
+        ["xpath=//input[@id='drink_alcohol']", "xpath:attributes"],
+        ["xpath=//form[@id='patientsdetails']/strong/strong/div[5]/input", "xpath:idRelative"],
+        ["xpath=//strong/div[5]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d8428699-b7ee-4fb9-98e5-1dd548781a4a",
+      "comment": "",
+      "command": "type",
+      "target": "id=drink_alcohol",
+      "targets": [
+        ["id=drink_alcohol", "id"],
+        ["name=drink_alcohol", "name"],
+        ["css=#drink_alcohol", "css:finder"],
+        ["xpath=//input[@id='drink_alcohol']", "xpath:attributes"],
+        ["xpath=//form[@id='patientsdetails']/strong/strong/div[5]/input", "xpath:idRelative"],
+        ["xpath=//strong/div[5]/input", "xpath:position"]
+      ],
+      "value": "No"
+    }, {
+      "id": "49ae4c30-927e-4ccf-8559-1c95b777437e",
+      "comment": "",
+      "command": "click",
+      "target": "id=is_smoke",
+      "targets": [
+        ["id=is_smoke", "id"],
+        ["name=is_smoke", "name"],
+        ["css=#is_smoke", "css:finder"],
+        ["xpath=//input[@id='is_smoke']", "xpath:attributes"],
+        ["xpath=//form[@id='patientsdetails']/strong/strong/div[6]/input", "xpath:idRelative"],
+        ["xpath=//strong/div[6]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "86929bfd-eecc-41c0-944f-89e6f798c6de",
+      "comment": "",
+      "command": "type",
+      "target": "id=is_smoke",
+      "targets": [
+        ["id=is_smoke", "id"],
+        ["name=is_smoke", "name"],
+        ["css=#is_smoke", "css:finder"],
+        ["xpath=//input[@id='is_smoke']", "xpath:attributes"],
+        ["xpath=//form[@id='patientsdetails']/strong/strong/div[6]/input", "xpath:idRelative"],
+        ["xpath=//strong/div[6]/input", "xpath:position"]
+      ],
+      "value": "No"
+    }, {
+      "id": "ecc2d9a9-becb-463e-a8ae-7e10f26d48d8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.form-group:nth-child(7) .multiselect",
+      "targets": [
+        ["css=.form-group:nth-child(7) .multiselect", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='patientsdetails']/strong/strong/div[7]/span/div/button", "xpath:idRelative"],
+        ["xpath=//span/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'None selected')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e96a6336-c799-4d6c-b828-e2071a532bf7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.show > .multiselect-option:nth-child(5) > .form-check",
+      "targets": [
+        ["css=.show > .multiselect-option:nth-child(5) > .form-check", "css:finder"],
+        ["xpath=//form[@id='patientsdetails']/strong/strong/div[7]/span/div/div/button[5]/span", "xpath:idRelative"],
+        ["xpath=//button[5]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "698e8c59-c42c-4eae-bc08-282dd316733d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.patient-form",
+      "targets": [
+        ["css=.patient-form", "css:finder"],
+        ["xpath=//div[@id='nav-home']/div/div/div[2]", "xpath:idRelative"],
+        ["xpath=//section[2]/div/div/div/div/div/div/div/div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0f2daea2-9350-4f66-aa0a-fa78169cbf31",
+      "comment": "",
+      "command": "click",
+      "target": "id=suffer_other_illness",
+      "targets": [
+        ["id=suffer_other_illness", "id"],
+        ["name=suffer_other_illness", "name"],
+        ["css=#suffer_other_illness", "css:finder"],
+        ["xpath=//input[@id='suffer_other_illness']", "xpath:attributes"],
+        ["xpath=//form[@id='patientsdetails']/strong/strong/div[8]/input", "xpath:idRelative"],
+        ["xpath=//div[8]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "83890ba9-1ca5-4110-9188-fc201605b587",
+      "comment": "",
+      "command": "type",
+      "target": "id=suffer_other_illness",
+      "targets": [
+        ["id=suffer_other_illness", "id"],
+        ["name=suffer_other_illness", "name"],
+        ["css=#suffer_other_illness", "css:finder"],
+        ["xpath=//input[@id='suffer_other_illness']", "xpath:attributes"],
+        ["xpath=//form[@id='patientsdetails']/strong/strong/div[8]/input", "xpath:idRelative"],
+        ["xpath=//div[8]/input", "xpath:position"]
+      ],
+      "value": "No"
+    }, {
+      "id": "79b1b9f7-9d78-4395-97b7-7621629eb044",
+      "comment": "",
+      "command": "click",
+      "target": "id=any_surgery",
+      "targets": [
+        ["id=any_surgery", "id"],
+        ["name=any_surgery", "name"],
+        ["css=#any_surgery", "css:finder"],
+        ["xpath=//input[@id='any_surgery']", "xpath:attributes"],
+        ["xpath=//form[@id='patientsdetails']/strong/strong/div[9]/input", "xpath:idRelative"],
+        ["xpath=//div[9]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "075168d6-0deb-4084-a7d9-008ab392af5d",
+      "comment": "",
+      "command": "type",
+      "target": "id=any_surgery",
+      "targets": [
+        ["id=any_surgery", "id"],
+        ["name=any_surgery", "name"],
+        ["css=#any_surgery", "css:finder"],
+        ["xpath=//input[@id='any_surgery']", "xpath:attributes"],
+        ["xpath=//form[@id='patientsdetails']/strong/strong/div[9]/input", "xpath:idRelative"],
+        ["xpath=//div[9]/input", "xpath:position"]
+      ],
+      "value": "No"
+    }, {
+      "id": "4d10dc7c-9c5c-4780-ab5c-0ead3d96abac",
+      "comment": "",
+      "command": "click",
+      "target": "id=any_pregnant",
+      "targets": [
+        ["id=any_pregnant", "id"],
+        ["name=any_pregnant", "name"],
+        ["css=#any_pregnant", "css:finder"],
+        ["xpath=//input[@id='any_pregnant']", "xpath:attributes"],
+        ["xpath=//form[@id='patientsdetails']/strong/strong/div[10]/input", "xpath:idRelative"],
+        ["xpath=//div[10]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0dfa4e32-2d4d-445a-a754-3bcc0f604c7d",
+      "comment": "",
+      "command": "type",
+      "target": "id=any_pregnant",
+      "targets": [
+        ["id=any_pregnant", "id"],
+        ["name=any_pregnant", "name"],
+        ["css=#any_pregnant", "css:finder"],
+        ["xpath=//input[@id='any_pregnant']", "xpath:attributes"],
+        ["xpath=//form[@id='patientsdetails']/strong/strong/div[10]/input", "xpath:idRelative"],
+        ["xpath=//div[10]/input", "xpath:position"]
+      ],
+      "value": "No"
+    }, {
+      "id": "604f5d58-9779-408e-b024-256202eaa845",
+      "comment": "",
+      "command": "click",
+      "target": "css=.form-group:nth-child(14) .multiselect",
+      "targets": [
+        ["css=.form-group:nth-child(14) .multiselect", "css:finder"],
+        ["xpath=(//button[@type='button'])[33]", "xpath:attributes"],
+        ["xpath=//form[@id='patientsdetails']/strong/strong/div[14]/span/div/button", "xpath:idRelative"],
+        ["xpath=//div[14]/span/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'None selected')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "80a7c69d-3ff0-4f4d-b203-b1387c598aa7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.show > .multiselect-option:nth-child(2) > .form-check",
+      "targets": [
+        ["css=.show > .multiselect-option:nth-child(2) > .form-check", "css:finder"],
+        ["xpath=//form[@id='patientsdetails']/strong/strong/div[14]/span/div/div/button[2]/span", "xpath:idRelative"],
+        ["xpath=//div[14]/span/div/div/button[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "59088ead-a9c1-4f58-9fe1-0f19552e016c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.patient-form",
+      "targets": [
+        ["css=.patient-form", "css:finder"],
+        ["xpath=//div[@id='nav-home']/div/div/div[2]", "xpath:idRelative"],
+        ["xpath=//section[2]/div/div/div/div/div/div/div/div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "116cf767-ecb9-42bd-8601-d34b4bd647e5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.contibtn",
+      "targets": [
+        ["css=.contibtn", "css:finder"],
+        ["xpath=(//button[@type='button'])[48]", "xpath:attributes"],
+        ["xpath=//form[@id='patientsdetails']/strong/strong/button[2]", "xpath:idRelative"],
+        ["xpath=//strong/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Continue')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ea631cbf-05a3-4cdf-9033-2ee29663f012",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-lg",
+      "targets": [
+        ["css=.btn-lg", "css:finder"],
+        ["xpath=//input[@value='Pay Now']", "xpath:attributes"],
+        ["xpath=//section[@id='my-cart']/div/div/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "935a7fd4-d88a-4965-96a4-62c38480cc11",
+      "comment": "",
+      "command": "click",
+      "target": "id=exp_date_yyyy",
+      "targets": [
+        ["id=exp_date_yyyy", "id"],
+        ["name=exp_date_yyyy", "name"],
+        ["css=#exp_date_yyyy", "css:finder"],
+        ["xpath=//select[@id='exp_date_yyyy']", "xpath:attributes"],
+        ["xpath=//div[@id='payment']/form/div[3]/div[2]/div/span/select", "xpath:idRelative"],
+        ["xpath=//div[2]/div/span/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b7b2dbed-404c-46da-8b4a-d302e24e5952",
+      "comment": "",
+      "command": "select",
+      "target": "id=exp_date_yyyy",
+      "targets": [],
+      "value": "label=40"
+    }, {
+      "id": "03b49fa1-571d-49ba-bd01-246197084837",
+      "comment": "",
+      "command": "click",
+      "target": "id=cmdSubmit1",
+      "targets": [
+        ["id=cmdSubmit1", "id"],
+        ["name=cmdSubmit1", "name"],
+        ["css=#cmdSubmit1", "css:finder"],
+        ["xpath=//button[@id='cmdSubmit1']", "xpath:attributes"],
+        ["xpath=//div[@id='cmd123456']/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'PROCEED TO PAYMENT')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3315cbe0-8e61-4fc8-802e-5e298b3c8b77",
+      "comment": "",
+      "command": "assertAlert",
+      "target": "Card number cannot be blank",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fc80be07-381f-47ed-9216-e6fcf53a1450",
+      "comment": "",
+      "command": "chooseOkOnNextConfirmation",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c28ba040-2794-4ed5-a2d1-d5a7116a4da5",
+      "comment": "",
+      "command": "click",
+      "target": "css=u",
+      "targets": [
+        ["css=u", "css:finder"],
+        ["xpath=//a[@id='cmdSubmit2']/u", "xpath:idRelative"],
+        ["xpath=//u", "xpath:position"],
+        ["xpath=//u[contains(.,'Cancel')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e8e577be-fa3f-4f0d-804a-daff0dd61290",
+      "comment": "",
+      "command": "assertConfirmation",
+      "target": "The transaction will not go through if you do not provide payment details. Are you sure?",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "81908001-a7ee-4c91-8da0-3f72bffc0459",
+      "comment": "",
+      "command": "webdriverChooseOkOnVisibleConfirmation",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "99d41694-0cd6-457e-adbc-06fe6724a121",
+    "name": "User Profile",
+    "commands": [{
+      "id": "01c58cd8-5d91-41ff-9d42-6479878e1f76",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.gpshealthonline.lk/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1d2dd714-cfed-4d9c-9ce7-47c8e5f8cb1d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1322x816",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "23221499-6736-42ab-a121-2e7ef966ae52",
+      "comment": "",
+      "command": "click",
+      "target": "css=#dropdownMenuLink > span",
+      "targets": [
+        ["css=#dropdownMenuLink > span", "css:finder"],
+        ["xpath=//a[@id='dropdownMenuLink']/span", "xpath:idRelative"],
+        ["xpath=//a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Fathima Najma')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c35acd0f-13f4-41ff-a58d-9e1f4a8290bc",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=User profile",
+      "targets": [
+        ["linkText=User profile", "linkText"],
+        ["css=.dropdown-menu > li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'User profile')]", "xpath:link"],
+        ["xpath=//section[@id='header']/div/nav/div[3]/ul/li/ul/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:void(0)')])[3]", "xpath:href"],
+        ["xpath=//li/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'User profile')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ac65c8b4-6570-47fa-ab1b-eac6a0a96f98",
+      "comment": "",
+      "command": "click",
+      "target": "id=select2-bloodgroupid-s5-container",
+      "targets": [
+        ["id=select2-bloodgroupid-s5-container", "id"],
+        ["css=#select2-bloodgroupid-s5-container", "css:finder"],
+        ["xpath=//span[@id='select2-bloodgroupid-s5-container']", "xpath:attributes"],
+        ["xpath=//form[@id='jvalidate']/div/div[2]/div[3]/div[3]/span/span/span/span", "xpath:idRelative"],
+        ["xpath=//div[3]/span/span/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f8733a8e-9daf-4dea-ae98-1d7ae6c6d335",
+      "comment": "",
+      "command": "click",
+      "target": "css=.my-2",
+      "targets": [
+        ["css=.my-2", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='jvalidate']/div/div[3]/div/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'SAVE CHANGES')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "10d59a46-0e12-49ac-b1c6-d5f2becafafc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.confirm",
+      "targets": [
+        ["css=.confirm", "css:finder"],
+        ["xpath=//div[7]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'OK')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ae03099e-f0b1-4db3-8dec-a2d1fb991a96",
+      "comment": "",
+      "command": "click",
+      "target": "id=addressinfo-tab",
+      "targets": [
+        ["id=addressinfo-tab", "id"],
+        ["linkText=ADDRESS INFO", "linkText"],
+        ["css=#addressinfo-tab", "css:finder"],
+        ["xpath=//a[contains(text(),'ADDRESS INFO')]", "xpath:link"],
+        ["xpath=//a[@id='addressinfo-tab']", "xpath:attributes"],
+        ["xpath=//div[@id='nav-tab']/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.gpshealthonline.lk/useraddress')]", "xpath:href"],
+        ["xpath=//nav[2]/div/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'ADDRESS INFO')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1fa64d76-3db0-4ee0-a24f-fee17e345e7d",
+      "comment": "",
+      "command": "click",
+      "target": "id=txt_firstname",
+      "targets": [
+        ["id=txt_firstname", "id"],
+        ["name=txt_firstname", "name"],
+        ["css=#txt_firstname", "css:finder"],
+        ["xpath=//input[@id='txt_firstname']", "xpath:attributes"],
+        ["xpath=//form[@id='addressid']/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "67339153-9472-46f5-867b-4d1e3b183b84",
+      "comment": "",
+      "command": "click",
+      "target": "id=txt_firstname",
+      "targets": [
+        ["id=txt_firstname", "id"],
+        ["name=txt_firstname", "name"],
+        ["css=#txt_firstname", "css:finder"],
+        ["xpath=//input[@id='txt_firstname']", "xpath:attributes"],
+        ["xpath=//form[@id='addressid']/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c25a85f7-0711-491e-9270-f6ed6e173f56",
+      "comment": "",
+      "command": "type",
+      "target": "id=txt_firstname",
+      "targets": [
+        ["id=txt_firstname", "id"],
+        ["name=txt_firstname", "name"],
+        ["css=#txt_firstname", "css:finder"],
+        ["xpath=//input[@id='txt_firstname']", "xpath:attributes"],
+        ["xpath=//form[@id='addressid']/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "Najma"
+    }, {
+      "id": "fa12627a-b36f-4ddb-a8e4-f3248ed7701f",
+      "comment": "",
+      "command": "click",
+      "target": "id=txt_lastname",
+      "targets": [
+        ["id=txt_lastname", "id"],
+        ["name=txt_lastname", "name"],
+        ["css=#txt_lastname", "css:finder"],
+        ["xpath=//input[@id='txt_lastname']", "xpath:attributes"],
+        ["xpath=//form[@id='addressid']/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e358fcac-fa9d-4491-8880-15dea8a7803e",
+      "comment": "",
+      "command": "type",
+      "target": "id=txt_lastname",
+      "targets": [
+        ["id=txt_lastname", "id"],
+        ["name=txt_lastname", "name"],
+        ["css=#txt_lastname", "css:finder"],
+        ["xpath=//input[@id='txt_lastname']", "xpath:attributes"],
+        ["xpath=//form[@id='addressid']/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "Muzammil"
+    }, {
+      "id": "a4a098b6-674e-44e0-9d4a-bb1e98c9a410",
+      "comment": "",
+      "command": "click",
+      "target": "id=txt_email",
+      "targets": [
+        ["id=txt_email", "id"],
+        ["name=txt_email", "name"],
+        ["css=#txt_email", "css:finder"],
+        ["xpath=//input[@id='txt_email']", "xpath:attributes"],
+        ["xpath=//form[@id='addressid']/div/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "23533627-2598-481e-b236-52e5e7828208",
+      "comment": "",
+      "command": "type",
+      "target": "id=txt_email",
+      "targets": [
+        ["id=txt_email", "id"],
+        ["name=txt_email", "name"],
+        ["css=#txt_email", "css:finder"],
+        ["xpath=//input[@id='txt_email']", "xpath:attributes"],
+        ["xpath=//form[@id='addressid']/div/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "najmamuzammil734@gmail.com"
+    }, {
+      "id": "de231622-34c1-48b3-93e3-6c55bd1c130b",
+      "comment": "",
+      "command": "type",
+      "target": "id=txt_address",
+      "targets": [
+        ["id=txt_address", "id"],
+        ["name=txt_address", "name"],
+        ["css=#txt_address", "css:finder"],
+        ["xpath=//input[@id='txt_address']", "xpath:attributes"],
+        ["xpath=//form[@id='addressid']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "41 ,JAYASEWANA MAWATHA , KALOBOWILA DEHIWALA."
+    }, {
+      "id": "fcd02c74-358d-4420-9936-aeafcab9a6c1",
+      "comment": "",
+      "command": "type",
+      "target": "id=areaid",
+      "targets": [
+        ["id=areaid", "id"],
+        ["name=areaid", "name"],
+        ["css=#areaid", "css:finder"],
+        ["xpath=//input[@id='areaid']", "xpath:attributes"],
+        ["xpath=//div[@id='areaDropDown']/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/input", "xpath:position"]
+      ],
+      "value": "colombo"
+    }, {
+      "id": "2c87f0ff-4a9d-4b50-860a-521a54a6d81a",
+      "comment": "",
+      "command": "type",
+      "target": "id=CityID",
+      "targets": [
+        ["id=CityID", "id"],
+        ["name=CityID", "name"],
+        ["css=#CityID", "css:finder"],
+        ["xpath=//input[@id='CityID']", "xpath:attributes"],
+        ["xpath=//form[@id='addressid']/div[2]/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[3]/input", "xpath:position"]
+      ],
+      "value": "colombo"
+    }, {
+      "id": "59aa1305-4ee7-41b8-abb0-13a04402d97c",
+      "comment": "",
+      "command": "type",
+      "target": "id=StateID",
+      "targets": [
+        ["id=StateID", "id"],
+        ["name=StateID", "name"],
+        ["css=#StateID", "css:finder"],
+        ["xpath=//input[@id='StateID']", "xpath:attributes"],
+        ["xpath=//form[@id='addressid']/div[2]/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[4]/input", "xpath:position"]
+      ],
+      "value": "srilanka"
+    }, {
+      "id": "27408fb7-222a-4f1a-8a32-c55b5bffee11",
+      "comment": "",
+      "command": "type",
+      "target": "id=sel_country",
+      "targets": [
+        ["id=sel_country", "id"],
+        ["name=sel_country", "name"],
+        ["css=#sel_country", "css:finder"],
+        ["xpath=//input[@id='sel_country']", "xpath:attributes"],
+        ["xpath=//form[@id='addressid']/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "Sri Lanka"
+    }, {
+      "id": "af5e5109-4f1c-414b-ac72-103b724f3cff",
+      "comment": "",
+      "command": "type",
+      "target": "id=pincodeid",
+      "targets": [
+        ["id=pincodeid", "id"],
+        ["name=pincodeid", "name"],
+        ["css=#pincodeid", "css:finder"],
+        ["xpath=//input[@id='pincodeid']", "xpath:attributes"],
+        ["xpath=//form[@id='addressid']/div[3]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/input", "xpath:position"]
+      ],
+      "value": "10350"
+    }, {
+      "id": "60645401-56bb-4e45-a122-7c2bfdd05f68",
+      "comment": "",
+      "command": "click",
+      "target": "id=select2-txt_tag-container",
+      "targets": [
+        ["id=select2-txt_tag-container", "id"],
+        ["css=#select2-txt_tag-container", "css:finder"],
+        ["xpath=//span[@id='select2-txt_tag-container']", "xpath:attributes"],
+        ["xpath=//form[@id='addressid']/div[3]/div[4]/span/span/span/span", "xpath:idRelative"],
+        ["xpath=//span/span/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a2ccbeb0-5aff-445b-b0c4-f701fd60804e",
+      "comment": "",
+      "command": "click",
+      "target": "id=btn_address",
+      "targets": [
+        ["id=btn_address", "id"],
+        ["css=#btn_address", "css:finder"],
+        ["xpath=//span[@id='btn_address']", "xpath:attributes"],
+        ["xpath=//form[@id='addressid']/div[4]/div[2]/div/button[2]/span", "xpath:idRelative"],
+        ["xpath=//button[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'   Add Address')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "99f75745-e8db-4019-8ff9-9a58f0d14fbc",
+      "comment": "",
+      "command": "click",
+      "target": "id=dependency-tab",
+      "targets": [
+        ["id=dependency-tab", "id"],
+        ["linkText=DEPENDANT INFO", "linkText"],
+        ["css=#dependency-tab", "css:finder"],
+        ["xpath=//a[contains(text(),'DEPENDANT INFO')]", "xpath:link"],
+        ["xpath=//a[@id='dependency-tab']", "xpath:attributes"],
+        ["xpath=//div[@id='nav-tab']/a[3]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.gpshealthonline.lk/userdependency')]", "xpath:href"],
+        ["xpath=//nav[2]/div/a[3]", "xpath:position"],
+        ["xpath=//a[contains(.,'DEPENDANT INFO')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9434dd08-18f5-4331-b52a-9d3c9fadc22d",
+      "comment": "",
+      "command": "click",
+      "target": "css=a:nth-child(1) > .material-icons",
+      "targets": [
+        ["css=a:nth-child(1) > .material-icons", "css:finder"],
+        ["xpath=//table[@id='tblresult']/tbody/tr/td[4]/a/span", "xpath:idRelative"],
+        ["xpath=//td[4]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'create')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "29f8cbfc-7b2e-44b4-bd74-227dba4f10d9",
+      "comment": "",
+      "command": "click",
+      "target": "id=patient_phone",
+      "targets": [
+        ["id=patient_phone", "id"],
+        ["name=patient_phone", "name"],
+        ["css=#patient_phone", "css:finder"],
+        ["xpath=//input[@id='patient_phone']", "xpath:attributes"],
+        ["xpath=//form[@id='patientjvalidate']/div/div/div/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7a00328d-1663-437e-8a64-09904600adf1",
+      "comment": "",
+      "command": "type",
+      "target": "id=patient_phone",
+      "targets": [
+        ["id=patient_phone", "id"],
+        ["name=patient_phone", "name"],
+        ["css=#patient_phone", "css:finder"],
+        ["xpath=//input[@id='patient_phone']", "xpath:attributes"],
+        ["xpath=//form[@id='patientjvalidate']/div/div/div/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "0778375431"
+    }, {
+      "id": "c6afeacf-e5d6-4e3b-8393-007f3d26b09f",
+      "comment": "",
+      "command": "click",
+      "target": "id=btn_dependancy",
+      "targets": [
+        ["id=btn_dependancy", "id"],
+        ["css=#btn_dependancy", "css:finder"],
+        ["xpath=//button[@id='btn_dependancy']", "xpath:attributes"],
+        ["xpath=//form[@id='patientjvalidate']/div/div/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Update')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e28c1402-fdb8-4770-ae89-03e451f12d97",
+      "comment": "",
+      "command": "click",
+      "target": "css=.confirm",
+      "targets": [
+        ["css=.confirm", "css:finder"],
+        ["xpath=//div[7]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'OK')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9eb87da1-3a4d-4b67-9933-c3ebacaf88b7",
+      "comment": "",
+      "command": "click",
+      "target": "id=subscription-tab",
+      "targets": [
+        ["id=subscription-tab", "id"],
+        ["linkText=SUBSCRIPTION HISTORY", "linkText"],
+        ["css=#subscription-tab", "css:finder"],
+        ["xpath=//a[contains(text(),'SUBSCRIPTION HISTORY')]", "xpath:link"],
+        ["xpath=//a[@id='subscription-tab']", "xpath:attributes"],
+        ["xpath=//div[@id='nav-tab']/a[4]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.gpshealthonline.lk/usersubsription')]", "xpath:href"],
+        ["xpath=//nav[2]/div/a[4]", "xpath:position"],
+        ["xpath=//a[contains(.,'SUBSCRIPTION HISTORY')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "36f232a2-fe2a-414b-8a71-a8a44bbce8be",
+      "comment": "",
+      "command": "click",
+      "target": "css=input",
+      "targets": [
+        ["css=input", "css:finder"],
+        ["xpath=//input[@type='search']", "xpath:attributes"],
+        ["xpath=//div[@id='subscriptiontable_filter']/label/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d9196d6c-f148-492d-be5e-67d01cdf55ca",
+      "comment": "",
+      "command": "type",
+      "target": "css=input",
+      "targets": [
+        ["css=input", "css:finder"],
+        ["xpath=//input[@type='search']", "xpath:attributes"],
+        ["xpath=//div[@id='subscriptiontable_filter']/label/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "947"
+    }, {
+      "id": "af841918-76ac-496a-839e-59c33636ebed",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=input",
+      "targets": [
+        ["css=input", "css:finder"],
+        ["xpath=//input[@type='search']", "xpath:attributes"],
+        ["xpath=//div[@id='subscriptiontable_filter']/label/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "a64ca98b-0b3a-4f33-9f21-302cbfe87324",
+      "comment": "",
+      "command": "click",
+      "target": "css=input",
+      "targets": [
+        ["css=input", "css:finder"],
+        ["xpath=//input[@type='search']", "xpath:attributes"],
+        ["xpath=//div[@id='subscriptiontable_filter']/label/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2ca77ad1-f2f3-412d-a2a7-146af479dac6",
+      "comment": "",
+      "command": "click",
+      "target": "id=booking-tab",
+      "targets": [
+        ["id=booking-tab", "id"],
+        ["linkText=BOOKING HISTORY", "linkText"],
+        ["css=#booking-tab", "css:finder"],
+        ["xpath=//a[contains(text(),'BOOKING HISTORY')]", "xpath:link"],
+        ["xpath=//a[@id='booking-tab']", "xpath:attributes"],
+        ["xpath=//div[@id='nav-tab']/a[5]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.gpshealthonline.lk/bookinghistory')]", "xpath:href"],
+        ["xpath=//nav[2]/div/a[5]", "xpath:position"],
+        ["xpath=//a[contains(.,'BOOKING HISTORY')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5b77d928-a9f7-4ab9-abc1-d35df9a8e132",
+      "comment": "",
+      "command": "click",
+      "target": "id=testorder-tab",
+      "targets": [
+        ["id=testorder-tab", "id"],
+        ["linkText=TEST HISTORY", "linkText"],
+        ["xpath=//a[contains(text(),'TEST HISTORY')]", "xpath:link"],
+        ["xpath=//a[@id='testorder-tab']", "xpath:attributes"],
+        ["xpath=//div[@id='nav-tab']/a[6]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.gpshealthonline.lk/testorders')]", "xpath:href"],
+        ["xpath=//nav[2]/div/a[6]", "xpath:position"],
+        ["xpath=//a[contains(.,'TEST HISTORY')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "563264cf-3bd1-4255-8916-4b30da8f6fbe",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=ORDERS HISTORY",
+      "targets": [
+        ["linkText=ORDERS HISTORY", "linkText"],
+        ["xpath=//a[contains(text(),'ORDERS HISTORY')]", "xpath:link"],
+        ["xpath=(//a[@id='testorder-tab'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='nav-tab']/a[7]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.gpshealthonline.lk/orderlist')]", "xpath:href"],
+        ["xpath=//nav[2]/div/a[7]", "xpath:position"],
+        ["xpath=//a[contains(.,'ORDERS HISTORY')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "4b08d33e-6d00-4d4e-9314-6e136f458d6e",
+    "name": "GPSHealthCare",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["2d770534-e351-4fc8-8206-ec9a44970ad1", "59d32586-0723-4f73-b137-f9ba556e6dd1", "5a693b16-17d2-482e-9772-b1832486aaf7", "e7c542e7-4495-4399-a905-b24f7f7bd4df", "f3f0b479-af61-48e5-9471-9fb1a7f3f98a", "7cbf51b4-d2b3-4f76-b84e-2324bdede446", "39237059-c868-4cd2-a413-5b4732789320"]
+  }],
+  "urls": ["https://www.gpshealthonline.lk/"],
+  "plugins": []
+}
